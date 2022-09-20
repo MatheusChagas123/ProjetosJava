@@ -18,22 +18,23 @@ public class ex2 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
+        int idFuncionario, horasTrabalahdas;
+        double  salarioHora,salarioTotal ;
 
-        double notaA, notaB;
+        System.out.println("Informe o ID do funcionário ");
+        idFuncionario = scan.nextInt();
 
-        System.out.println("Digite a primeira nota ");
-        notaA = scan.nextDouble();
+        System.out.println("Informe a quantidade de horas trabalhadas ");
+        horasTrabalahdas = scan.nextInt();
 
-        System.out.println("Digite a segunda nota ");
-        notaB = scan.nextDouble();
+        System.out.println("Informe o salário por hora do funcionário  "+idFuncionario + " :" );
+        salarioHora = scan.nextDouble();
 
-        double media = (notaA + notaB) / 2;
+         salarioTotal = horasTrabalahdas * salarioHora;
 
-        System.out.println("A media do aluno e :" + media);
+        System.out.printf("O salário do funcionário "+ idFuncionario+" é igual a: R$ %.2f",salarioTotal);
 
-        double mediaPonderada = ((notaA * 3.5) + (notaB * 7.5)) / 11;
-        System.out.printf("mediaPonderada %.5f ", mediaPonderada);
-
+        
         scan.close();
 
     }
