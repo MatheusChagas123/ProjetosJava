@@ -18,19 +18,19 @@ public class ex3 {
      public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String nomeVendedor;
-        int  horasTrabalahdas;
-        double  salarioHora,salarioTotal ;
+       
+        double  vendas,salarioFixo,salarioTotal ;
 
         System.out.println("Informe o nome do vendendor ");
         nomeVendedor = scan.nextLine();
 
-        System.out.println("Informe a quantidade de horas trabalhadas ");
-        horasTrabalahdas = scan.nextInt();
+        System.out.println("Informe o salário fixo de :  "+nomeVendedor);
+       salarioFixo = scan.nextDouble();
 
-        System.out.println("Informe o salário por hora do funcionário  "+nomeVendedor + " :" );
-        salarioHora = scan.nextDouble();
+        System.out.println("Informe o valor de venda que "+nomeVendedor + " realizou :" );
+        vendas = scan.nextDouble();
 
-         salarioTotal = horasTrabalahdas * salarioHora;
+         salarioTotal = (vendas * 0.15) + salarioFixo;
 
          System.out.printf("O salário do funcionário "+ nomeVendedor+" é igual a: R$ %.2f",salarioTotal);
 
