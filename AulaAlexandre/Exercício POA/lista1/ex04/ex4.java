@@ -1,4 +1,4 @@
-package ex4;
+package ex04;
 
 import java.util.Scanner;
 // 4. Faça um programa que leia do teclado três valores inteiros e exiba o maior e

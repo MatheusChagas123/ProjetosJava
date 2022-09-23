@@ -1,4 +1,4 @@
-package ex8;
+package ex08;
 
 // 8. Elabore um programa que permita calcular o Imposto de Renda (IR) de um casal
 // a partir das rendas do Homem (RH) e da Mulher (RM). O imposto é calculado sobre

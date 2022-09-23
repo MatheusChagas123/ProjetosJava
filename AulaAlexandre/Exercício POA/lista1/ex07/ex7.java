@@ -1,4 +1,4 @@
-package ex7;
+package ex07;
 // 7. Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis
 
 // (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100,

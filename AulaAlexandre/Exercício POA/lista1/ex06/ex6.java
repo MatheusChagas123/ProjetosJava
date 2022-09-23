@@ -1,4 +1,4 @@
-package ex6;
+package ex06;
 // 6. Calcule o consumo médio de um automóvel sendo fornecidos a distância total
 // percorrida (em km) e o total de combustível gasto (em litros).
 // Entrada

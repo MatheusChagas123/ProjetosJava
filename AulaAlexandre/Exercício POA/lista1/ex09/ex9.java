@@ -1,4 +1,4 @@
-package ex9;
+package ex09;
 
 // 9. Faça um programa que receba via teclado o tempo de duração de um evento em
 // uma fábrica em uma a variável do tipo inteira (int) expressa em segundos e mostre-o

@@ -1,4 +1,4 @@
-package ex5;
+package ex05;
 // 5. Faça um programa que leia do teclado três valores inteiros e exiba-os em ordem
 
 // crescente.

@@ -1,4 +1,4 @@
-package ex3;
+package ex03;
 
 // 3. Faça um programa que lê o nome de um vendedor, o seu salário fixo e o total de
 // vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha

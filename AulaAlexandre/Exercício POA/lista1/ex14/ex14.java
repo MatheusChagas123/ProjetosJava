@@ -1,3 +1,6 @@
+package ex14;
+
+
 import java.util.Scanner;
 
 public class ex14 {
