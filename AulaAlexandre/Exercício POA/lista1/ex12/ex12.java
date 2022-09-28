@@ -11,7 +11,7 @@ public class ex12 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner scan = new Scanner(System.in);
-        int q1, q2, q3, result;
+        int q1, q2, q3;
         q2=0;
         q3=0;
 

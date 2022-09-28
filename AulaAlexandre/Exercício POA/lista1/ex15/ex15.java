@@ -17,7 +17,7 @@ public class ex15 {
 
         System.out.println("Digite um número menor que 46: ");
         int numero = leia.nextInt();
-        int n1 = 0;
+        
         
 
         
