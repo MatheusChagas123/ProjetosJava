@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 // 1. Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2
 // notas de um aluno. Calcule a média ponderada do aluno, sabendo que a nota A tem
